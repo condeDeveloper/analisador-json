@@ -1,0 +1,12 @@
+{
+  "name": "analisador-json",
+  "version": "1.0.0",
+  "description": "Um analisador e serializador de JSON escrito do zero: erro com linha e coluna, chave duplicada detectada e inteiro grande sem perder precisao. Zero dependencias.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "json": "src/cli.js" },
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test testes/*.test.js" },
+  "keywords": ["json", "parser", "rfc8259", "json-pointer"],
+  "license": "MIT"
+}
